@@ -9,7 +9,7 @@ Repositori per als vídeos de Vue
 - L6 X
 - L7 X
 - L8 X
-- L9
+- L9 X
 - L10
 - L11
 - FINAL PRODUCT
