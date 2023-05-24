@@ -7,8 +7,8 @@ Repositori per als vídeos de Vue
 - L4 X
 - L5 X
 - L6 X
-- L7
-- L8
+- L7 X
+- L8 X
 - L9
 - L10
 - L11
