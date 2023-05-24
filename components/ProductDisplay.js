@@ -15,8 +15,8 @@ app.component('product-display', {
       <div class="product-info">
         <h1>{{ title }}</h1>
 
-        <p v-if="inStock">In Stock</p>
-        <p v-else>Out of Stock</p>
+        <p v-if="inStock">En Stock</p>
+        <p v-else>Fora de Stock</p>
 
         <p>Shipping: {{ shipping }}</p>
         <ul>
@@ -45,13 +45,13 @@ app.component('product-display', {
   </div>`,
   data() {
     return {
-        product: 'Socks',
-        brand: 'Vue Mastery',
+        product: 'Games',
+        brand: 'Hcrbg',
         selectedVariant: 0,
-        details: ['50% cotton', '30% wool', '20% polyester'],
+        details: ['Nintendo', 'The Legend Of Zelda'],
         variants: [
-          { id: 2234, color: 'green', image: './assets/images/socks_green.jpg', quantity: 50 },
-          { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg', quantity: 0 },
+          { id: 2234, color: 'lightgreen', image: './assets/images/totk_box.jpg', quantity: 50 }, 
+          { id: 2235, color: 'lightblue', image: './assets/images/botw_box.jpg', quantity: 0 },
         ],
         reviews: []
     }

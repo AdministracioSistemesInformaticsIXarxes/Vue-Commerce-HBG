@@ -7,7 +7,7 @@ body {
 
 .button {
   margin: 30px;
-  background-color: #39495c;
+  background-color: #812323;
   border-radius: 5px;
   font-size: 18px;
   width: 160px;
@@ -16,7 +16,7 @@ body {
   padding: 20px;
   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
     inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
-    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+    inset 0 0 0em 0.05em rgba(78, 2, 2, 0.247);
   text-align: center;
   cursor: pointer;
 }
@@ -56,6 +56,7 @@ h3 {
 
 img {
   border: 2px solid #d8d8d8;
+  height: 85%;
   width: 70%;
   margin: 40px;
   padding: 15px;
@@ -80,7 +81,7 @@ li {
 }
 
 .nav-bar {
-  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+  background: linear-gradient(-90deg, #c43252, #c01665);
   height: 60px;
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
