@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            description: 'Descripció dels calcetins.' 
+            image: './assets/images/socks_green.jpg',
+            url: 'https://github.com/AdministracioSistemesInformaticsIXarxes/Vue-Commerce-HBG'
         }
     }
 })
